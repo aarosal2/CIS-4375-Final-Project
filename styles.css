@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #c4c0bf;
+}
+header {
+    background: #c4c0bf;
+    color: #404473;
+    text-align: center;
+}
+.logo {
+    max-width: 45%; /* Adjust size as needed */
+    height: auto; /* Keeps the aspect ratio */
+    display: block;
+    margin: 0 auto; /* Centers the logo */
+}
+/* Style the navbar */
+nav {
+    display: flex;
+    justify-content: center;
+    background: #191b41;
+    padding: 10px;
+}
+
+/* Style the nav links */
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+}
+
+/* Dropdown container */
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+/* Dropdown button (Services) */
+.dropbtn {
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    display: inline-block;
+}
+
+/* Dropdown content (Hidden by default) */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: white;
+    min-width: 150px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+/* Dropdown links */
+.dropdown-content a {
+    color: #191b41;
+    padding: 10px;
+    text-decoration: none;
+    display: block;
+}
+
+/* Show dropdown on hover */
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 50px;
+    background-image: url(img/lawbg.jpg);
+    background-size: cover;
+    background-position: center;
+    color: #ffff;
+}
+.hero img {
+    max-width: 40%;
+    margin-right: 20px;
+}
+.hero-text {
+    max-width: 50%;
+    position: relative;
+    top: -50px;
+
+}
+.hero-title {
+    font-family: 'Josefin Sans';
+    font-size: 3rem;
+    letter-spacing: 2px;
+}
+.contact-form {
+    padding: 20px;
+    background: #404473;
+    text-align: center;
+    color: white;
+}
+.contact-form h2 {
+    font-family: 'Josefin Sans';
+    font-size: 2.5rem;
+}
+form {
+    display: inline-block;
+    text-align: left;
+}
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    background: #c4c0bf;
+    color: black;
+}
+button {
+    background: #191b41;
+    color: white;
+    padding: 10px;
+    border: none;
+}
+
+
