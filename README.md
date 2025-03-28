@@ -19,5 +19,6 @@ git add .
 git commit -m "Describe what you changed here"
 git push origin main
 
-Useful commands: git status      # Shows modified/added files
+Useful commands: 
+git status      # Shows modified/added files
 git diff        # Shows exact line-by-line changes (unstaged)
